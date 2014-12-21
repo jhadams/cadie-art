@@ -52,13 +52,13 @@ nav {
   background-color: #4b7e1a;
   
   padding: 4px;
-  margin: 4px;
+  margin: 0;
   border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #4b7e1a;
 }
 nav ul {
   padding: 4px;
-  border: 2px solid #222;
+  border: 0;
 }
 nav ul li {
   vertical-align: middle;
@@ -69,8 +69,8 @@ nav ul li {
   
   border-radius: 5px;
   border: 3px solid #ffcccc;
-  padding: 0;
-  margin-right: 0;
+  padding: 5px;
+  margin-right: 10px;
   
   font-size: 15px;
   font-family: Helvetica;
@@ -78,14 +78,29 @@ nav ul li {
 }
 	
 section {
-  background-color: #7b6e0a;
+  background-color: #4b7e1a;
   color: #ddddaa;
   
-  padding: 0;
-  border-top: 1px solid #ff8;
+  padding: 15px;
+  border-top: 1px solid #4b7e1a;
   border-bottom: 1px solid #ff8;
 }
 
+.prevnext {
+  font-family: "Arial Black";
+  font-weight: bold;
+  font-size: 50px;
+  color: #000;
+  text-decoration: none;
+}
+
+.prevnext.hover {
+  color: #222;
+  text-decoration: none;
+  background-color: #8b7e1a;
+  border: 0px solid #0000;
+  border-radius: 50%;
+}
 
 article {
   width: 600px;
@@ -93,9 +108,10 @@ article {
 }
 
 figcaption {
-  font-size: 18px;
-  text-decoration: underline;
-  
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Verdana;
+  text-decoration: none;
 }
 
 
@@ -103,7 +119,8 @@ footer {
   height: 15%;
   text-align: center;
   
-  margin-top: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 footer p {
   display: inline;
