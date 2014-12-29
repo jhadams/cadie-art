@@ -91,7 +91,7 @@ section {
 article {
   width: 60%;
   margin: 0 auto;
-  border: 1px solid #ff0000;
+  /*border: 1px solid #ff0000;*/
   display: table-cell;
 }
 
