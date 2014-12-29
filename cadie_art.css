@@ -64,13 +64,14 @@ nav ul li {
   vertical-align: middle;
   list-style: none;
   display: inline;
-  background-color: #2b5e00;
+  background-color: #1b4e00;
   color: #fc5;
   
-  border-radius: 5px;
-  border: 3px solid #ffcccc;
+  border-radius: 8px;
+  border: 3px solid #aa2222;
   padding: 5px;
   margin-right: 10px;
+  margin-bottom: 15px;
   
   font-size: 15px;
   font-family: Helvetica;
@@ -79,32 +80,62 @@ nav ul li {
 	
 section {
   background-color: #4b7e1a;
-  color: #ddddaa;
+  color: #fc5;
+  display: table-row;
   
   padding: 15px;
   border-top: 1px solid #4b7e1a;
   border-bottom: 1px solid #ff8;
 }
 
-.prevnext {
-  font-family: "Arial Black";
-  font-weight: bold;
-  font-size: 50px;
-  color: #000;
-  text-decoration: none;
-}
-
-.prevnext.hover {
-  color: #222;
-  text-decoration: none;
-  background-color: #8b7e1a;
-  border: 0px solid #0000;
-  border-radius: 50%;
-}
-
 article {
-  width: 600px;
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid #ff0000;
+  display: table-cell;
+}
+
+article img {
+  border: 4px solid #aa2222;
+  border-radius: 8px;
+  display: block;
+  width: 50%;
   margin: 0 auto 0 auto;
+}
+
+aside {
+  display: table-cell;
+}
+
+#prev a, #next a {
+  font-family: Consolas;
+  font-weight: bold;
+  font-size: 60px;
+  color: #fc5;
+  text-decoration: none;
+  text-align: center;
+  
+  padding: 0;
+  margin: 0 auto;
+  border: 3px solid #aa2222;
+  border-radius: 50%;
+  background-color: #1b4e00;
+  width: 70px;
+  height: 70px;
+}
+
+#prev a {
+  float: left;
+}
+
+#next a {
+  float: right;
+}
+
+figure {
+  border: 1px solid #dddd00;
+  padding-right: 5px;
+  padding-bottom: 30px;
 }
 
 figcaption {
